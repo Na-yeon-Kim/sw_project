@@ -8,7 +8,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
 
 # 학습된 kNN 모델 로드
-model_filename = r'C:\sw\first_project\knn_model_96.pkl'
+model_filename = r'C:\sw\first_project\knn_model_hand_96.pkl'
 knn = joblib.load(model_filename)
 
 cap = cv2.VideoCapture(0)

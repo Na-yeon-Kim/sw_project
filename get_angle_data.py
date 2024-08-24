@@ -6,9 +6,6 @@ import csv
 mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
 
-# 제스처 정의 (가위, 바위, 보 등)
-rps_gesture = {0: 'rock', 1: 'paper', 2: 'scissors'}
-
 cap = cv2.VideoCapture(0)
 collecting = False  # 데이터 수집 상태를 추적
 data_buffer = []  # 수집된 데이터를 임시로 저장
